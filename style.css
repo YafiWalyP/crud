@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+th {
+    background-color: #141414;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #282828;
+}
+
+.foto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.actions a {
+    padding: 5px 10px;
+    background-color: #ffffff;
+    color: #141414;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.rincian {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #141414;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.rincian:hover {
+    background-color: #f1f1f1;
+}
+
+.update {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #141414;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.update:hover {
+    background-color: #f1f1f1;
+}
+
+.delete {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #141414;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.delete:hover {
+    background-color: #f1f1f1;
+}
+
+.logout {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #de0c0c;
+    color: #141414;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin-top: 16px;
+}
+
+/* .logout:hover {
+    background-color: #f1f1f1;
+} */
+
+.create {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #141414;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.create:hover {
+    background-color: #f1f1f1;
+}
